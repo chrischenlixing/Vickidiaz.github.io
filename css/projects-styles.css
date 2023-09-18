@@ -6,18 +6,6 @@ body {
     
 }
 
-.contact-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    margin: 50px; 
-    padding: 15px 0;
-    
-    
-}
-
 .navbar {
     background-color: #bb8c2e;
     /* color: white; */
@@ -45,3 +33,7 @@ body {
     font-weight: bold;
     font-family: Arial, sans-serif;
 }
+
+#battery {
+    font-size: 48px;
+  }
