@@ -5,12 +5,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    
 }
+.container-fluid {
+    padding: 0;
+}
+
 .navbar {
     background-color: #bb8c2e;
     /* color: white; */
     text-align: center;
-    padding: 10px 0;
+    padding: 0;
+
 }
 
 .nav-list {
@@ -29,9 +35,23 @@ body {
 
 .nav-item a {
     text-decoration: none;
+    padding: 10px 20px;
+    height: 5ex;
     color: black;
     font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
     font-family: Arial, sans-serif;
+    cursor: pointer;
+    
+    /* width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer; */
     
 }
 
@@ -68,6 +88,7 @@ body {
 } */
 .right-message {
     background: linear-gradient(135deg, #bb8c2e, #d1baa0); /* Gradient background for the right box */
+    font-size: 20px;
 }
 
 .welcome-text {
@@ -77,11 +98,25 @@ body {
     font-size: 6rem; /* Adjust the font size as needed */
     position: relative; /* Changed from 'absolute' to 'relative' */
     text-shadow: -15px 10px 20px #ced0d3;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: black;
+    /* text-shadow: 5px 5px 0px #FFD662;  */
+     /* Removed the 15px and 25px shadows */
+    
+}
+.bien-text {
+    /* Your specified styles for the "Welcome" text */
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 6rem; /* Adjust the font size as needed */
+    position: relative; /* Changed from 'absolute' to 'relative' */
+    text-shadow: -15px 10px 20px #ced0d3;
     letter-spacing: 0.02em;
     text-align: center;
     color: black;
-    text-shadow: 5px 5px 0px white, 
-    10px 10px 0px #FFD662; /* Removed the 15px and 25px shadows */
+    /* text-shadow: 5px 5px 0px #FFD662;  */
+    /* 10px 10px 0px #FFD662; Removed the 15px and 25px shadows */
     
 }
 

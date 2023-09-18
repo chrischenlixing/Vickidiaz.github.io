@@ -5,7 +5,14 @@ body {
     background-color: #bb8c2e; /* background color */
     
 }
-
+.prj-border{
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+.container-fluid {
+    padding: 0;
+}
 .navbar {
     background-color: #bb8c2e;
     /* color: white; */
@@ -29,9 +36,14 @@ body {
 
 .nav-item a {
     text-decoration: none;
+    padding: 10px 20px;
+    height: 5ex;
     color: black;
     font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
     font-family: Arial, sans-serif;
+    cursor: pointer;
 }
 
 #battery {
