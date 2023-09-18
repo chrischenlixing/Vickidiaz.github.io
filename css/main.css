@@ -1,0 +1,97 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #bb8c2e;
+    /* color: white; */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* .nav-item:last-child {
+    margin-right: 0;
+} */
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.split-container {
+    display: flex;
+    height: 100vh; /* 100% viewport height */
+}
+
+.left-message, .right-message {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* border: 5px solid #ddd; */
+
+}
+
+/* .left-message {
+    background-color: #B7B7A4;
+    color: white;
+} */
+
+.left-message {
+    background: linear-gradient(135deg, #d1baa0, #bb8c2e); /* Gradient background for the left box */
+    color: black;
+    
+}
+
+/* .right-message {
+    background-color: #f9f9f9;
+} */
+.right-message {
+    background: linear-gradient(135deg, #bb8c2e, #d1baa0); /* Gradient background for the right box */
+}
+
+.welcome-text {
+    /* Your specified styles for the "Welcome" text */
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 6rem; /* Adjust the font size as needed */
+    position: relative; /* Changed from 'absolute' to 'relative' */
+    text-shadow: -15px 10px 20px #ced0d3;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 0px white, 
+    10px 10px 0px #FFD662; /* Removed the 15px and 25px shadows */
+    
+}
+
+
+.footer {
+    background-color: #bb8c2e;
+    /* color: black; */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
