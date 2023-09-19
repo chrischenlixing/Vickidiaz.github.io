@@ -8,9 +8,12 @@ Vicki Diaz
 https://johnguerra.co/classes/webDevelopment_fall_2022/
 
 # Project Objective
-The objective of this project is to build a homepage that is connected with other pages that showcase who we are and any work or projects we have done. The goal is to showcase our work so that others can become interested in hiring us for a job 
+The objective of this project is to build a homepage that showcases who we are, our intrest, and any work or projects we have done. The goal is to demonstarte our work so that others who are interested in hiring can reach out and see our work. 
 
 # Front-page screenshot 
+![screentshot page](images/front_page_pic.png)
 
 # How to build
-You can fork this repo and run it locally
+You can fork https://github.com/Vickidiaz/Vickidiaz.github.io
+
+# slides link
