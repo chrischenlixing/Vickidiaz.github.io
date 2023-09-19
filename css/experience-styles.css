@@ -45,7 +45,7 @@ body {
 .button-navbar-item {
     background-color: #bb8c2e;
     color: black;
-    border: 2px solid gray;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 16px;
