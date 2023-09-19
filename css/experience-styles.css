@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #bb8c2e; 
+    background: linear-gradient(135deg, #bb8c2e, #d1baa0);
     
 }
 .exp-border{
