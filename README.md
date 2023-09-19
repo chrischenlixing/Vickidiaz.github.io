@@ -13,9 +13,12 @@ The objective of this project is to build a homepage that showcases who I am, my
 # Front-page screenshot 
 ![Front Page Picture](images/front_page_pic.png) 
 
-# How to build
-This is the link to the project: https://github.com/Vickidiaz/Vickidiaz.github.io
-You can clone or fork the repository and run it in a browser after opening it on a local server. 
+# How to build/use
+* You can load the following link in an browser.
+    https://vickidiaz.github.io/
+
+* You can clone or fork the repository the following link and run it in a browser after opening it on a local server. 
+    https://github.com/Vickidiaz/Vickidiaz.github.io
 
 
 # slides link
