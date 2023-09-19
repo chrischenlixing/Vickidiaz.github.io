@@ -6,20 +6,18 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <script src="script.js"></script>
 
 </head>
 <body>
-    <!-- <h1>This is heading 1</h1> -->
-    <!-- <p>This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p> -->
-    <div class="container-fluid"> <!-- Wrap the content in a container -->
+    <div class="container-fluid"> <!-- Wrap  content in a container -->
         <div class="top">
             <nav class="navbar navbar-expand-lg justify-content-center"> <!-- Use justify-content-center class to center the navbar -->
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="./about.html">About</a></li>
-                    <li class="nav-item"><a href="./experience.html">Experience</a></li>
-                    <li class="nav-item"><a href="./projects.html">Projects</a></li>
-                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                    <li class="nav-item"><a href="./about.html" class="button-navbar-item">About</a></li>
+                    <li class="nav-item"><a href="./experience.html" class="button-navbar-item">Experience</a></li>
+                    <li class="nav-item"><a href="./projects.html" class="button-navbar-item">Projects</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="button-navbar-item">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,6 +25,8 @@
         <div class="left-message">
             <h1 class="welcome-text">Welcome!</h1>
             <h2 class="bien-text">¡Bienvenido!</h2>
+            <button id="playButton" class="music-button">Play Music</button>
+            <audio id="music" src="song/spotifydown.com - 2005 Toyota Corolla.mp3" preload="auto"></audio>
         </div>
         <div class="right-message">
             <p>¡Hola!</p>
@@ -35,7 +35,10 @@
                 I found an interest in learning how to build technological resources that merges both social sciences and technology. </p>
             <p>Feel free to explore my first website and learn more about me.</p>
         </div>
+        
+
     </div>
+
 
     <footer class="footer">
         <a href="https://www.linkedin.com/in/vicki-diaz" target="_blank">
@@ -68,8 +71,6 @@
         </a>
     </footer>
     
-    
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>

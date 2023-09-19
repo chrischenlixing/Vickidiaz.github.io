@@ -46,6 +46,23 @@ body {
     cursor: pointer;
 }
 
-#battery {
-    font-size: 48px;
+.button-navbar-item {
+    background-color: #bb8c2e;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    /* Remove underlines for links */
+    text-decoration: none; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
+  
+  .button-navbar-item:hover {
+    background-color: darkgray;
+  }
+
+/* #battery {
+    font-size: 48px;
+  } */

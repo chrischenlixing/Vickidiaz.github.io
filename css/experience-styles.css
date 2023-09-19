@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #bb8c2e; /* Replace 'your-color' with your desired background color */
+    background-color: #bb8c2e; 
     
 }
 .exp-border{
@@ -17,7 +17,6 @@ body {
 
 .navbar {
     background-color: #bb8c2e;
-    /* color: white; */
     text-align: center;
     padding: 10px 0;
 }
@@ -32,10 +31,6 @@ body {
     margin-right: 20px;
 }
 
-/* .nav-item:last-child {
-    margin-right: 0;
-} */
-
 .nav-item a {
     text-decoration: none;
     padding: 10px 20px;
@@ -47,6 +42,21 @@ body {
     font-family: Arial, sans-serif;
     cursor: pointer;
 }
+.button-navbar-item {
+    background-color: #bb8c2e;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none; /* Remove underlines for links */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-navbar-item:hover {
+    background-color: darkgray;
+  }
 
 
 .main-experience ul li {
@@ -63,8 +73,8 @@ body {
     margin-right: 20px; 
 }
 
-.main-experience ul li .experience-details {
+/* .main-experience ul li .experience-details {
     display: inline-block; /* Display the text next to the image */
-    vertical-align: top; /* Align text to the top of the image */
-    width: calc(100% - 110px); /* Calculate the width for the text (total width minus image width and margin) */
-}
+    /* vertical-align: top; /* Align text to the top of the image */
+    /* width: calc(100% - 110px); Calculate the width for the text (total width minus image width and margin) */
+/* } */ 

@@ -29,9 +29,6 @@ body {
     margin-right: 20px;
 }
 
-/* .nav-item:last-child {
-    margin-right: 0;
-} */
 
 .nav-item a {
     text-decoration: none;
@@ -72,10 +69,6 @@ body {
 
 }
 
-/* .left-message {
-    background-color: #B7B7A4;
-    color: white;
-} */
 
 .left-message {
     background: linear-gradient(135deg, #d1baa0, #bb8c2e); /* Gradient background for the left box */
@@ -92,34 +85,63 @@ body {
 }
 
 .welcome-text {
-    /* Your specified styles for the "Welcome" text */
+    /* english */
     font-family: 'Calligraffitti', cursive;
     font-weight: 700;
-    font-size: 6rem; /* Adjust the font size as needed */
-    position: relative; /* Changed from 'absolute' to 'relative' */
+    font-size: 6rem; 
+    position: relative; 
     text-shadow: -15px 10px 20px #ced0d3;
     letter-spacing: 0.01em;
     text-align: center;
     color: black;
-    /* text-shadow: 5px 5px 0px #FFD662;  */
-     /* Removed the 15px and 25px shadows */
+    
     
 }
 .bien-text {
-    /* Your specified styles for the "Welcome" text */
+    /* spanish */
     font-family: 'Calligraffitti', cursive;
     font-weight: 700;
-    font-size: 6rem; /* Adjust the font size as needed */
-    position: relative; /* Changed from 'absolute' to 'relative' */
+    font-size: 6rem; 
+    position: relative; 
     text-shadow: -15px 10px 20px #ced0d3;
     letter-spacing: 0.02em;
     text-align: center;
     color: black;
-    /* text-shadow: 5px 5px 0px #FFD662;  */
-    /* 10px 10px 0px #FFD662; Removed the 15px and 25px shadows */
+   
     
 }
+.button-navbar-item {
+    background-color: #bb8c2e;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none; /* Remove underlines for links */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-navbar-item:hover {
+    background-color: darkgray;
+  }
 
+/* music  */
+.music-button {
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .music-button:hover {
+    background-color: darkgray;
+  }
+  
 
 .footer {
     background-color: #bb8c2e;
