@@ -15,6 +15,7 @@ https://johnguerra.co/classes/webDevelopment_fall_2022/
 The objective of this project is to build a homepage that showcases who I am, my interest, and a place to show the projects that I will be working on soon. It was a class assignment for my web development course .
 
 # Front-page screenshot
+<img width="1125" alt="front_page_pic" src="https://github.com/Vickidiaz/Vickidiaz.github.io/assets/88179209/79547910-0480-4023-ba9a-0454ac52516a">
 
 # How to build/use
 
