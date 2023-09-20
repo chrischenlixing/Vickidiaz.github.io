@@ -26,7 +26,7 @@ The objective of this project is to build a homepage that showcases who I am, my
 - You can clone or fork the repository the following link and run it in a browser after opening it on a local server.
   https://github.com/Vickidiaz/Vickidiaz.github.io
 
-# slides link
+# Links
 
--
--
+- Video Presentation: https://www.youtube.com/watch?v=QvkCEQAH9gk
+- Slides: https://docs.google.com/presentation/d/1X0z2tNVx294qKaQef8J4L6p0fMLuZX9bJNemR-5d8VQ/edit?usp=sharing
