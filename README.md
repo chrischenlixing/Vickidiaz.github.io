@@ -16,8 +16,6 @@ The objective of this project is to build a homepage that showcases who I am, my
 
 # Front-page screenshot
 
-![Front Page Picture](images/front_page_pic.png)
-
 # How to build/use
 
 - You can load the following link in an browser.
