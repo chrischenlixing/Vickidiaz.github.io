@@ -1,15 +1,16 @@
 // script.js
-document.addEventListener("DOMContentLoaded", function () {
-  var playButton = document.getElementById("playButton");
-  var music = document.getElementById("music");
+document.addEventListener('DOMContentLoaded', function () {
+  const playButton = document.getElementById('playButton')
+  const music = document.getElementById('music')
 
-  playButton.addEventListener("click", function () {
+  playButton.addEventListener('click', function () {
     if (music.paused) {
-      music.play();
-      playButton.textContent = "Pause Music";
+      music.play()
+      playButton.textContent = 'Pause Music'
     } else {
-      music.pause();
-      playButton.textContent = "Play Music";
+      music.pause()
+      playButton.textContent = 'Play Music'
     }
-  });
-});
+  })
+})
+
